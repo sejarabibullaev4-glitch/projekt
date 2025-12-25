@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UFC Rankings 2025</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>UFC Rankings — Декабрь 2025</h1>
+  <select id="weightFilter">
+    <option value="all">Все веса</option>
+    <option value="p4p">P4P</option>
+    <option value="heavy">Тяжёлый</option>
+    <option value="lightheavy">Полутяжёлый</option>
+    <option value="middle">Средний</option>
+    <option value="welter">Полусредний</option>
+    <option value="light">Лёгкий</option>
+  </select>
+</header>
+
+<section class="p4p">
+<h2>Pound-for-Pound</h2>
+<table>
+<tr><th>#</th><th>Боец</th><th>Вес</th><th>Рекорд</th></tr>
+<tr><td>1</td><td>Islam Makhachev</td><td>Полусредний</td><td>28–1</td></tr>
+<tr><td>2</td><td>Ilia Topuria</td><td>Лёгкий</td><td>17–0</td></tr>
+<tr><td>3</td><td>Alex Pereira</td><td>Полутяжёлый</td><td>14–3</td></tr>
+<tr><td>4</td><td>Khamzat Chimaev</td><td>Средний</td><td>15–0</td></tr>
+</table>
+</section>
+
+<main class="cards" id="fighters">
+<div class="card" data-weight="heavy">
+<a href="fighters/aspinall.html">
+<h3>Tom Aspinall</h3>
+<p>Тяжёлый | 15–3</p>
+</a>
+</div>
+
+<div class="card" data-weight="lightheavy">
+<a href="fighters/pereira.html">
+<h3>Alex Pereira</h3>
+<p>Полутяжёлый | 14–3</p>
+</a>
+</div>
+
+<div class="card" data-weight="middle">
+<a href="fighters/chimaev.html">
+<h3>Khamzat Chimaev</h3>
+<p>Средний | 15–0</p>
+</a>
+</div>
+
+<div class="card" data-weight="welter">
+<a href="fighters/makhachev.html">
+<h3>Islam Makhachev</h3>
+<p>Полусредний | 28–1</p>
+</a>
+</div>
+
+<div class="card" data-weight="light">
+<a href="fighters/topuria.html">
+<h3>Ilia Topuria</h3>
+<p>Лёгкий | 17–0</p>
+</a>
+</div>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
